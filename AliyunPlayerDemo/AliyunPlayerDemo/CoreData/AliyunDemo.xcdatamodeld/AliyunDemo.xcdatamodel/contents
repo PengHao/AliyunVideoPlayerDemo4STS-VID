@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17B1003" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Snapshots" representedClassName="Snapshots" syncable="YES">
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="videoInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VideoInfo" inverseName="snapshots" inverseEntity="VideoInfo" syncable="YES"/>
+    </entity>
+    <entity name="VideoInfo" representedClassName="VideoInfo" syncable="YES">
+        <attribute name="cacheFilePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacheFormat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cacheProgress" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cacheQuality" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="cacheStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="coverURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="modifyTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="snapshots" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Snapshots" inverseName="videoInfo" inverseEntity="Snapshots" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Snapshots" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="VideoInfo" positionX="-63" positionY="-18" width="128" height="255"/>
+    </elements>
+</model>
