@@ -17,12 +17,12 @@
 ## Demo工程
 * 视频点播及下载的业务交互时序图
 
- ![image](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png)
+ ![image](https://github.com/PengHao/AliyunVideoPlayerDemo4STS-VID/blob/master/sequence.png?raw=true)
 
 
 * 客户端业务模块流程图
 
- ![image](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png)
+ ![image](https://github.com/PengHao/AliyunVideoPlayerDemo4STS-VID/blob/master/flowchart.png?raw=true)
 
 
 
