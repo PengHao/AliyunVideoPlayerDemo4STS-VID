@@ -44,6 +44,7 @@
 #### 域名管理
 1. 打开[域名管理](https://vod.console.aliyun.com/?spm=5176.2020520001.aliyun_sidebar.7.SOq4Qu#/vod/settings/domain) 填写视频点播的域名。如果不填写可能会导致视频无法点播
 
+## 操作步骤
 #### 搭建Demo服务器
 1. 安装JRE、IDEA 和 tomcat
 2. 配置JAVA环境变量
